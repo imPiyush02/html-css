@@ -1,0 +1,128 @@
+.div1
+            {
+                background-color: rgb(87, 122, 135);
+                color: red;
+                font-family: monospace;
+                font-size: 25px;
+                font-weight: bold;
+            }
+            .div2
+            {
+                background-color: skyblue;
+                height: 200px;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                font-size: 15px;
+                text-align: center;
+                color: black;
+                box-sizing: border-box;
+            }
+            .div3
+            {
+                background-color: skyblue;
+                height: 200px;
+                width: 48px;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                font-size: 15px;
+                text-align: center;
+                color:black
+
+            }
+            .div4
+            {
+                background-color: skyblue;
+                height: 200px;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                font-size: 15px;
+                text-align: center;
+                color: black;
+            }
+            .div5
+            {
+                background-color: skyblue;
+                color: skyblue;
+                font-size: 15px;
+                font-weight: bold;
+                text-align: left;
+            }
+            .div6
+            {
+                background-color: skyblue;
+                color: skyblue;
+                font-size: 15px;
+                font-weight: bold;
+                text-align: left;
+            }
+            .div7
+            {
+                background-color: skyblue;
+                color: skyblue;
+                font-size: 15px;
+                font-weight: bold;
+                text-align: left;
+
+            }
+            .div8
+            {background-color: skyblue;
+                color: skyblue;
+                font-size: 15px;
+                font-weight: bold;
+                text-align: left;
+            }
+            .div9
+            {
+                background-color: skyblue;
+                color: skyblue;
+                font-size: 15px;
+                font-weight: bold;
+                text-align: left;
+        
+            }
+            .div10
+            {
+                background-color: skyblue;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                font-size: 15px;
+                text-align: left;
+                color: black; 
+                
+            }
+            .p1
+            {
+                background-color: skyblue;
+                font-size: 15px;
+                font-weight: bold;
+                text-align: left;
+                color: black;
+                width: 300;
+            }
+            html
+            {
+                text-align: center;
+                background-color: skyblue;
+            }
+            .f
+            {
+                color: black;
+                text-align:left;
+                font-size: 15px;
+                font-weight: bold;
+            
+            }
+            .Found
+            {
+                text-align: left;
+                font-size: 15px;
+                font-weight: bold;
+                color: black;
+            }
+            .resident
+            {
+                margin top:1mm;
+                text-align: center;
+                top: 1px;
+            }
+            label
+            {
+                width:auto;
+                display:inline-block;
+            }

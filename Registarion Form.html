@@ -2,168 +2,44 @@
 <html>
     <head>
         <title>Registration</title>
-        <style>
-            .div1
-            {
-                background-color: rgb(87, 122, 135);
-                color: red;
-                font-family: monospace;
-                font-size: 25px;
-                font-weight: bold;
-            }
-            .div2
-            {
-                background-color: skyblue;
-                height: 200px;
-                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-                font-size: 15px;
-                text-align: center;
-                color: black;
-                box-sizing: border-box;
-            }
-            .div3
-            {
-                background-color: skyblue;
-                height: 200px;
-                width: 48px;
-                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-                font-size: 15px;
-                text-align: center;
-                color:black
-
-            }
-            .div4
-            {
-                background-color: skyblue;
-                height: 200px;
-                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-                font-size: 15px;
-                text-align: center;
-                color: black;
-            }
-            .div5
-            {
-                background-color: skyblue;
-                color: skyblue;
-                font-size: 15px;
-                font-weight: bold;
-                text-align: left;
-            }
-            .div6
-            {
-                background-color: skyblue;
-                color: skyblue;
-                font-size: 15px;
-                font-weight: bold;
-                text-align: left;
-            }
-            .div7
-            {
-                background-color: skyblue;
-                color: skyblue;
-                font-size: 15px;
-                font-weight: bold;
-                text-align: left;
-
-            }
-            .div8
-            {background-color: skyblue;
-                color: skyblue;
-                font-size: 15px;
-                font-weight: bold;
-                text-align: left;
-            }
-            .div9
-            {
-                background-color: skyblue;
-                color: skyblue;
-                font-size: 15px;
-                font-weight: bold;
-                text-align: left;
-        
-            }
-            .div10
-            {
-                background-color: skyblue;
-                height: 200px;
-                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-                font-size: 15px;
-                text-align: left;
-                color: black;
-                
-               
-               
-            }
-            .p1
-            {
-                background-color: skyblue;
-                color: skyblue;
-                font-size: 15px;
-                font-weight: bold;
-                text-align: left;
-                color: black;
-                width: 400;
-            }
-            html
-            {
-                text-align: center;
-                background-color: skyblue;
-            }
-            .f
-            {
-                color: black;
-                text-align:center;
-            }
-            .S
-            {
-                text-align: left;
-            }
-            .Found
-            {
-                text-align: left;
-                font-size: 15px;
-                font-weight: bold;
-            }
-        </style>
+       <link rel="stylesheet" href="ragistration.css">
         </head>
         <body>
             <div class="div1">Individual Registration</div><br>
-            <div class="div5"><span style="color: red">User Perticular</span></div>
+            <div class="div5"><span style="color: red">User Perticular</span>
             <div class="div2">
-             <label for="login Di"><span style="color: red;">*</span>Login id</label>
-                <input type="text"id=""name=""required placeholder="Enter login id"><br><br>
+            <label for="login Di"><span style="color: red;">*</span>Login id</label>
+            <input type="text"id=""name=""required placeholder="Enter login id"><br><br>
 
-                <label for="password"><span style="color: red;">*</span>password</label>
-                <input type="password" id="" required placeholder="Enter Password"><br><br>
+            <label for="password"><span style="color: red;">*</span>password</label>
+            <input type="password" id="" required placeholder="Enter Password"><br><br>
 
-                <label for="Confirm Password"><span style="color:red;">*</span>Confirm Password</label>
-                <input type="password" id=""required placeholder="Confirm Password"><br><br>
+            <label for="Confirm Password"><span style="color:red;">*</span>Confirm Password</label>
+            <input type="password" id=""required placeholder="Confirm Password"><br><br>
             </div>
-            <div class="div6"><span style="color: red;">Porsonal Particular</span>
-            </div><br>
-               <div class="S" ><label for="saluation"><span style="color: red;">*</span>salutation:</label>
-                    <select name="salutation" id="salutation">
-                            <option value="select">--select--</option>
-                            <option value="web devlopment">Web Devlopment</option>
+            <div class="div6"><span style="color: red;">Porsonal Particular</span><br><br>
+            <div class="f"><label for="saluation"><span style="color: red;">*</span>salutation:</label>
+                   <select name="salutation" id="salutation">
+                    <option value="select">--select--</option>
+                            <!-- <option value="web devlopment">Web Devlopment</option>
                             <option value="Web designing">Web designing</option>
-                            <option value="App Devloper">App Devloper</option>
-                        </select>
-                    </div>
-                        <div class="f">
+                            <option value="App Devloper">App Devloper</option> -->
+                        </select><br><br>
                         <label for="first name"><span style="color: red;">*</span>First Name</label>
                         <input type="text"name=""id=""required placeholder="Enter First Name"><br><br>
 
                         <label for="Middle Name"><span style="color: red;">*</span>Middle Name</label>
-                        <input type="text" name="" id=""required placeholder="Enter Middle Name">
-                    <br><br>
+                        <input type="text" name="" id=""required placeholder="Enter Middle Name"><br><br>
                         <label for="Last Name"><span style="color: red;">*</span>Last Name</label>
                         <input type="text"name=""id=""required placeholder="Enter Last Name"><br><br>
-                        <label for="resident"><span style="color: red;">*</span>Residential Status </label>
-                        <select name="residend" id="residrnd">
+                        <div class="resident">
+                            <label for="resident";style><span style="color: red;">*</span>Residential Status</label>
+                        <select name="Residential" id="Residential">
                             <option value="select">--select--</option>
                             <option value="Individual">Individual</option>
                             <option value="rent">Rent</option>
-                        </select></div><br><br>
+                        </select>
+                        <br><br>
                         <label for="country"><span style="color: red;">*</span>Country</label>
                         <select name="country" id="country">
                             <option value="Select">--select--</option>
@@ -177,23 +53,23 @@
                             <option value="Butan">Butan</option>
                             <option value="Bangladesh">Bangladesh</option>
                             <option value="Nepal">Nepal</option>
-                            <option value="shrilanka">Shrilanka</option>
+                            <option value="shrilanka">Shrilanka</option><
                             <option value="Thailend">Thailang</option>
                             <option value="Singapure">Singapure</option>
                             <option value="soudi arebia">Soudi Aarebia</option>
-                        </select></div> <br><br>
-
-                        <label for="Email"> <span style="color: red;">*</span>Email</label>
-                        <input type="Email" name="" id=""placeholder="Email id"><br><br>
+                        </select><br><br>
+                        
+                            <span style="color: red;">*</span>Email</label>
+                        <input type="Email" name="" id=""placeholder="Email id">
+                    <br><br>
                         <label for="Mobile Numnber"><span style="color: red;">*</span>Mobile Numnber</label>
-                        <input type="number"name="" id=""required placeholder="Enter phone Number"><br><br>
-                    </div>
+                        <input type="number"name="" id=""required placeholder="Enter phone Number"><br>
 
-                <div class="div7"><Span style="color: red;">Account Perticular</Span></div>
+                <div class="div7"><Span style="color: red;">Account Perticular</Span></div><br>
                  <div class="div10">
                     <label for="Account number"><span style="color: red;">*</span>15 digit account number</label>
-                    <input type="Number" id="" name="" required placeholder="Enert Your account details"></div>
-                    <div class="Found">
+                    <input type="Number" id="" name="" required placeholder="Enert Your account details"><br><br>
+                   
                         <label for="Found Tranfer"><span style="color: red;">*</span>Found Transfer</label>
                         <select name="Found Tranfer" id="Found Tranfer">
                             <option value="select">--select--</option>
@@ -201,13 +77,14 @@
                             <option value="RTGS">RTGS</option>
                             <option value="Net Banking">Net Banking</option>
                             <option value="Upi">UPI</option>
-                        </select></div><br><br>
-                    <div class="div8"><span style="color: red;">Declaration</span></div><br>
+                        </select>
+                    </div><br>
+                    <div class="div8"><span style="color: red;">Declaration</span></div>
                     <p class="P1">
                         “I, _______ (candidate's name), declare that all the information submitted by me in the application form is correct, true and valid. I will present the supporting documents as and when required.” Please note that there should be no change in this text.
 
                     </p>    
-                    <button >Submit</button>
+                    <button>Submit</button>
                     <Button>Reset</Button>
                  </body>
                  </html>

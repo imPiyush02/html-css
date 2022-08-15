@@ -1,6 +1,6 @@
 .div1
             {
-                background-color: rgb(87, 122, 135);
+                background-color: rgba(24, 101, 129, 0.492);
                 color: red;
                 font-family: monospace;
                 font-size: 25px;
@@ -63,7 +63,7 @@
             }
             .div8
             {background-color: skyblue;
-                color: skyblue;
+                color: rgb(24, 25, 25);
                 font-size: 15px;
                 font-weight: bold;
                 text-align: left;
@@ -88,7 +88,7 @@
             }
             .p1
             {
-                background-color: skyblue;
+                background-color: black;
                 font-size: 15px;
                 font-weight: bold;
                 text-align: left;
@@ -100,29 +100,37 @@
                 text-align: center;
                 background-color: skyblue;
             }
-            .f
+            .S
             {
-                color: black;
-                text-align:left;
+                background-color: skyblue;
+                height: 200px;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
                 font-size: 15px;
-                font-weight: bold;
-            
-            }
-            .Found
-            {
                 text-align: left;
-                font-size: 15px;
-                font-weight: bold;
                 color: black;
+                box-sizing: border-box;
+                float: left;
             }
-            .resident
+            .R
             {
-                margin top:1mm;
+                background-color: skyblue;
+                /* height: 200px; */
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                /* font-size: 15px; */
                 text-align: center;
-                top: 1px;
-            }
+                color: black;
+                box-sizing: border-box;
+                float: center;
+                /* padding: bottom 20px; */
+            }       
             label
             {
-                width:auto;
-                display:inline-block;
+                display: inline-block;
+            }
+            input
+            {
+                border: black;
+                display: inline-block;
+                /* padding-block-end: 20px; */
+                
             }
